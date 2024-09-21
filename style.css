@@ -1,0 +1,33 @@
+body {
+    background-color: #093630;
+    color: white;
+    font-family: "Spectral", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #1fa9c2;
+    color: white;
+    font-family: "Spectral", serif;
+}
+
+
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+} 
+
+img {
+    max-width: 90%;
+}
